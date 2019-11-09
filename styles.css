@@ -1,0 +1,109 @@
+*{
+    font:normal 100%;
+}
+body{
+    margin: 0;
+    padding: 0px;
+}
+/*/ part 1 /*/
+nav{
+    display: block;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    z-index: 9999;
+    width:100%;
+    height: 60px;
+    background-color: black;
+}
+#hamachi-logo{
+    margin: auto;
+    height: 100%;
+}
+/*/ part 2 /*/
+.main-view_head{
+    z-index: 8888;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    margin-left: 20px;    
+}
+#main-view_img{
+    width: 100%;
+    height: auto;
+    float: right;
+}
+h1{
+    width: fit-content;
+    color: white;
+    font-size: 400%;
+}
+h2{
+    width: fit-content;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.register-button{
+    background-color:#E63C37;
+    color: white;
+    border-radius: 4px;
+    font-size: 25px;
+    top: 80px;
+    right: 0;
+    width: 250px;
+    height: 80px;
+}
+.register-button:hover{
+    background-color: black;
+    color: white;  
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+/*/ part 3/*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+#best-suggestions-NYC{
+    float: left; 
+    width: 33.33%;
+    padding: 0px;
+    border: 0px;
+}
+@media screen and (max-width:600px) {
+#best-suggestions-NYC {
+    width: 100%;
+}
+}
+#best-suggestions-CLF{
+    float: left; 
+    width: 33.33%;
+    padding:0px;
+    border: 0px;
+}
+@media screen and (max-width:600px) {
+#best-suggestions-CLF {
+    width: 100%;
+}
+}
+#best-suggestions-More{
+    float: left; 
+    width: 33.33%;
+    padding: 0px;
+    border: 0px;
+}
+@media screen and (max-width:600px) {
+#best-suggestions-More {
+    width: 100%;
+}
+}
+/*/ part 5/*/
+.page-end{
+    position: absolute;
+    background: black;
+    height: 200px;
+    width: 100%;
+    color: white;
+}
