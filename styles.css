@@ -29,8 +29,8 @@ nav{
 .main-view_head{
     z-index: 8888;
     position: absolute;
-    top: 160px;
-    left: 20px;
+    top: 20%;
+    left: 45px;
     margin-left: 20px;    
 }
 #main-view_img{
@@ -42,6 +42,7 @@ nav{
 h1{
     width: fit-content;
     color: white;
+    margin-top: 0;
     font-size: 400%;
     font-family: 'Abril Fatface', cursive;
 }
@@ -49,7 +50,8 @@ h2{
     width: fit-content;
     color: white;
     margin-top: 0px;
-    margin-bottom: 55px;
+    font-size: 180%;
+    margin-bottom: 30px;
     font-family: 'Abril Fatface', cursive;
 }
 .register-button{
@@ -118,11 +120,19 @@ h3{
     text-align: center;
     padding: 20px;
 }
-#comment-box{
-    width: 50%;
-    height: 200px;
-    padding: 20px;
-    margin-bottom: 20px;
+#zip-code{
+    width: 30%;
+    height: 30px;
+    font-size: 15px;
+}
+#restaurant-name{
+    width: 30%;
+    height: 30px;
+    font-size: 15px;
+}
+#email-address{
+    width: 30%;
+    height: 30px;
     font-size: 15px;
 }
 #submit-comment{
@@ -133,6 +143,7 @@ h3{
     right: 0;
     width: 170px;
     height: 50px;
+    margin-top: 20px;
     cursor: pointer;
 }
 #top-sharing{
